@@ -2,9 +2,9 @@ import test from 'ava';
 import fn from './';
 
 test(async t => {
-	const gitStar = await fn.stars('facebook/react');
-	const gitFork = await fn.forks('facebook/react');
+	const gitStar = await fn.stars('codedotjs/instavim');
+	const gitFork = await fn.forks('codedotjs/instavim');
 
-	t.is(gitStar, '44,024');
-	t.is(gitFork, '7,587');
+	t.is(gitStar, '3');
+	t.is(gitFork, '0');
 });
