@@ -40,7 +40,7 @@ stafo.forks('facebook/react').then(gitForks => {
 
 ## API
 
-### __```stafo.all('username/repository')```__
+### __```stafo.repo('username/repository')```__
 
 - Returns a promise for an array of defined repository property with current stars and forks.
 
