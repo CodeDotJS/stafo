@@ -1,8 +1,8 @@
 'use strict';
 
-const got = require('got');
-const cheerio = require('cheerio');
-const Promise = require('pinkie-promise');
+var got = require('got');
+var cheerio = require('cheerio');
+var Promise = require('pinkie-promise');
 
 function stafo(repository) {
 	if (typeof repository !== 'string') {
