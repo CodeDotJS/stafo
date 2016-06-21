@@ -1,0 +1,41 @@
+{
+  "name": "stafo",
+  "version": "1.0.0",
+  "description": "Get the total number of stars and forks on a particular github repository.",
+  "main": "index.js",
+  "dependencies": {
+    "got": "*",
+    "cheerio": "*",
+    "pinkie-promise": "*"
+  },
+  "devDependencies": {
+    "xo": "*",
+    "ava": "*"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeDotJS/stafo.git"
+  },
+  "keywords": [
+    "github",
+    "git",
+    "find",
+    "total",
+    "forks",
+    "stars",
+    "repo",
+    "repository"
+  ],
+  "author": "Rishi Giri <rushforlinux@gmail.com> (http://rishigiri.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodeDotJS/stafo/issues"
+  },
+  "homepage": "https://github.com/CodeDotJS/stafo#readme"
+}
